@@ -1,0 +1,8 @@
+{
+  "Development": ["Backend","Frontend","AI","Debugging","Testing","Deployment"],
+  "Productivity": ["Research","Documentation","Planning"],
+  "Design": ["UI","UX","Branding"],
+  "Security": ["Pentesting","Auditing","Scanning"],
+  "DevOps": ["Docker","CI/CD","Cloud"],
+  "AI": ["Prompt Engineering","Agents","Automation"]
+}

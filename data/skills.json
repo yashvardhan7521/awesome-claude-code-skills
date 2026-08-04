@@ -1,0 +1,26 @@
+[
+  {
+    "name": "skill-example",
+    "score": 85,
+    "category": "AI",
+    "purpose": "Show example skill schema",
+    "best_for": ["Beginners", "Quick wins"],
+    "features": ["Installable", "CLI command"],
+    "advantages": ["Saves time", "Easy to use"],
+    "disadvantages": ["Limited scope"],
+    "installation": "pip install skill-example",
+    "command": "/skill-example",
+    "difficulty": "Easy",
+    "learning_curve": "Easy",
+    "average_time_saved": 2,
+    "popularity": 4.5,
+    "license": "MIT",
+    "works_with": ["Claude Code", "Codex"],
+
+    "time_saved": 30,
+    "frequency": 40,
+    "automation": 20,
+    "difficulty_reduction": 10,
+    "overall_usefulness": 25
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "ranking_formula": {
+    "time_saved": 30,
+    "frequency": 25,
+    "automation": 20,
+    "difficulty_reduction": 15,
+    "overall_usefulness": 10
+  },
+  "rankings": [
+    {"name":"skill-example","score": null}
+  ]
+}
