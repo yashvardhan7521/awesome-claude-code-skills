@@ -168,7 +168,7 @@ Community and third-party plugins worth knowing about. Support labels below refl
     </tr>
   </tbody>
 </table>
----
+
 ## 📐 Agent Skills Standard & Documentation
 
 - **[Agent Skills Specification](https://github.com/anthropics/skills/tree/main/spec)** — The open specification describing the portable `SKILL.md` format and supporting conventions.
