@@ -1,18 +1,3 @@
-# 🚀 Awesome Claude Code Skills
-
-> The largest curated collection of **Claude Code Skills**, ranked by usefulness and organized for developers.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](#contributing)
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-success.svg)](#website)
-
----
-
-## 📖 About
-
-**Awesome Claude Code Skills** is a community-driven repository that helps developers discover, compare, and learn the best Claude Code skills.
-
-Instead of scrolling through scattered repositories and documentation, you'll find everything in one place with consistent ratings, categories, installation guides, and practical use cases.
 
 ---
 <p align="center">
@@ -31,6 +16,12 @@ Instead of scrolling through scattered repositories and documentation, you'll fi
 > A curated, human-maintained directory of high-value Skills, plugins, and agent tooling for **Claude, Claude Code, Codex, Gemini CLI, Cursor, and other Agent Skills-compatible environments**.
 
 Skills are small, reusable instruction packages that give an AI agent specialized workflows, knowledge, scripts, references, and assets. The format is increasingly portable across coding agents, so this list favors projects that are useful beyond a single vendor where practical.
+
+## 📖 About
+
+**Awesome Claude Code Skills** is a community-driven repository that helps developers discover, compare, and learn the best Claude Code skills.
+
+Instead of scrolling through scattered repositories and documentation, you'll find everything in one place with consistent ratings, categories, installation guides, and practical use cases.
 
 ## Why this list exists
 
