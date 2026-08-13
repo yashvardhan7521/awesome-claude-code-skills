@@ -126,45 +126,45 @@ Community and third-party plugins worth knowing about. Support labels below refl
       <th>Plugin</th>
       <th>Claude Code</th>
       <th>Codex</th>
-      <th>Other agents</th>
-      <th>Specific feature</th>
+      <th>Other Agents</th>
+      <th>Specific Feature</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>OmniRoute</strong></td>
-      <td>✅ Yes</td>
-      <td>Not verified</td>
-      <td>200+ AI providers via its routing layer</td>
-      <td>Routes Claude Code usage across free AI providers and automatically switches to another model when a usage limit is reached.</td>
+      <td><a href="https://github.com/diegosouzapw/OmniRoute"><strong>OmniRoute</strong></a></td>
+      <td>✅</td>
+      <td>❓</td>
+      <td>❓</td>
+      <td>AI provider routing</td>
     </tr>
     <tr>
-      <td><strong>Claude Mem</strong></td>
-      <td>✅ Yes</td>
-      <td>Not verified</td>
-      <td>Not verified</td>
-      <td>Persistent project/session memory that summarizes work and makes information recallable across sessions.</td>
+      <td><a href="https://github.com/thedotmack/claude-mem"><strong>Claude Mem</strong></a></td>
+      <td>✅</td>
+      <td>❓</td>
+      <td>❓</td>
+      <td>Persistent memory</td>
     </tr>
     <tr>
-      <td><strong>Headroom</strong></td>
-      <td>✅ Yes</td>
-      <td>Not verified</td>
-      <td>Model-agnostic compression proxy</td>
-      <td>Compresses context before it reaches the model so less token-heavy, unnecessary context is passed through.</td>
+      <td><a href="https://github.com/chopratejas/headroom"><strong>Headroom</strong></a></td>
+      <td>✅</td>
+      <td>❓</td>
+      <td>❓</td>
+      <td>Context compression</td>
     </tr>
     <tr>
-      <td><strong>Claude Code Setup</strong></td>
-      <td>✅ Yes</td>
-      <td>Not verified</td>
-      <td>Claude Code plugin ecosystem</td>
-      <td>Scans a codebase and recommends useful hooks, Skills, subagents, and MCP servers, while helping remove unnecessary setup.</td>
+      <td><a href="https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup"><strong>Claude Code Setup</strong></a></td>
+      <td>✅</td>
+      <td>❓</td>
+      <td>❓</td>
+      <td>Codebase setup recommendations</td>
     </tr>
     <tr>
       <td><strong>Task Observer</strong></td>
-      <td>⚠️ Not verified</td>
-      <td>Not verified</td>
-      <td>Not verified</td>
-      <td>Claimed to observe working patterns and continuously improve other Skills in the background.</td>
+      <td>❓</td>
+      <td>❓</td>
+      <td>❓</td>
+      <td>Workflow observation and skill improvement</td>
     </tr>
   </tbody>
 </table>
