@@ -116,7 +116,59 @@ These are especially worth checking when you want one Skill or repository to tra
 | [Marketing Skills](https://github.com/coreyhaines31/marketingskills) | ✅ | ✅ | ✅ | Marketing and growth |
 
 ---
+🧩 Plugins
 
+Community and third-party plugins worth knowing about. Support labels below reflect the information provided with this list; where support was not verified in the supplied material, it is marked Not verified rather than pretending the robot knows everything.
+
+<table>
+  <thead>
+    <tr>
+      <th>Plugin</th>
+      <th>Claude Code</th>
+      <th>Codex</th>
+      <th>Other agents</th>
+      <th>Specific feature</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>OmniRoute</strong></td>
+      <td>✅ Yes</td>
+      <td>Not verified</td>
+      <td>200+ AI providers via its routing layer</td>
+      <td>Routes Claude Code usage across free AI providers and automatically switches to another model when a usage limit is reached.</td>
+    </tr>
+    <tr>
+      <td><strong>Claude Mem</strong></td>
+      <td>✅ Yes</td>
+      <td>Not verified</td>
+      <td>Not verified</td>
+      <td>Persistent project/session memory that summarizes work and makes information recallable across sessions.</td>
+    </tr>
+    <tr>
+      <td><strong>Headroom</strong></td>
+      <td>✅ Yes</td>
+      <td>Not verified</td>
+      <td>Model-agnostic compression proxy</td>
+      <td>Compresses context before it reaches the model so less token-heavy, unnecessary context is passed through.</td>
+    </tr>
+    <tr>
+      <td><strong>Claude Code Setup</strong></td>
+      <td>✅ Yes</td>
+      <td>Not verified</td>
+      <td>Claude Code plugin ecosystem</td>
+      <td>Scans a codebase and recommends useful hooks, Skills, subagents, and MCP servers, while helping remove unnecessary setup.</td>
+    </tr>
+    <tr>
+      <td><strong>Task Observer</strong></td>
+      <td>⚠️ Not verified</td>
+      <td>Not verified</td>
+      <td>Not verified</td>
+      <td>Claimed to observe working patterns and continuously improve other Skills in the background.</td>
+    </tr>
+  </tbody>
+</table>
+---
 ## 📐 Agent Skills Standard & Documentation
 
 - **[Agent Skills Specification](https://github.com/anthropics/skills/tree/main/spec)** — The open specification describing the portable `SKILL.md` format and supporting conventions.
