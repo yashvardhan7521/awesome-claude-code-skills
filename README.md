@@ -252,6 +252,107 @@ Community and third-party plugins worth knowing about. Support labels below refl
   </tbody>
 </table>
 
+🔌 Plugin details
+
+First is OmniRoute.
+
+It gives your Claude Code almost unlimited usage by connecting to over 200 free AI providers.
+
+The moment your usage limit runs out, it automatically switches you to the next best model.
+
+So your session never actually stops.
+
+Second is Claude Mem.
+
+It gives Claude memory across every session.
+
+It remembers your project and files without you ever having to re-explain a thing.
+
+Third is Headroom.
+
+It quietly sits between you and your AI model.
+
+It only passes the parts that actually matter, compressing and removing the unnecessary stuff.
+
+So you get the same results using fewer tokens.
+
+Fourth is Claude Code Setup.
+
+It's an official Anthropic plugin.
+
+It scans your entire codebase and recommends the best hooks, skills, subagents, and MCP servers that fit your project.
+
+And it removes the useless stuff you don't need.
+
+And finally, Task Observer.
+
+It quietly watches how you work and learns your style.
+
+It constantly improves your other skills in the background for you.
+
+#ClaudeAI #ClaudeCode #Claudemem #Claudeplugins #omniroute
+1w
+
+i asked claude code about these plugins, here's his answer :
+Omni Route is the one I'd skip. "Unlimited free tokens from 200 providers" means your code and prompts get sent to whichever third-party provider is free at that moment — unknown data-retention policies, and you silently stop getting Claude models, so quality becomes a lottery. The "1.6 billion free tokens" figure is marketing math from stacking every provider's free tier. If cost is the concern, a smaller model or planning your heavy work is a safer lever than routing source code through random endpoints.
+Claude Mem is legit — it's a well-known community plugin that summarizes sessions into recallable memory. But note that Claude Code now has native persistent memory (this very session has a memory directory it writes to), plus CLAUDE.md project memory, so the gap it fills has shrunk a lot.
+Headroom-style compression proxies are a real tradeoff, not free money. Anything that strips "unnecessary" context between you and the model can also strip the detail that made an answer correct, and you won't know which happened. Claude Code already does automatic context compaction; I'd only add a third-party compressor if you're measuring quality before/after.
+Claude Code Setup is real and you already have it. The claude-code-setup plugin with its automation-recommender skill is installed in this session. That claim checks out, and it's genuinely useful for a first pass on a repo.
+Task Observer I can't verify. I don't recognize it, and "watches everything you do and rewrites your skills in the background automatically" is exactly the kind of thing I'd want to read the source of before installing it's a lot of standing access for an unproven win.
+
+🧩 Plugins
+
+Community and third-party plugins worth knowing about. Support labels below reflect the information provided with this list; where support was not verified in the supplied material, it is marked Not verified rather than pretending the robot knows everything.
+
+<table>
+  <thead>
+    <tr>
+      <th>Plugin</th>
+      <th>Claude Code</th>
+      <th>Codex</th>
+      <th>Other agents</th>
+      <th>Specific feature</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>OmniRoute</strong></td>
+      <td>✅ Yes</td>
+      <td>Not verified</td>
+      <td>200+ AI providers via its routing layer</td>
+      <td>Routes Claude Code usage across free AI providers and automatically switches to another model when a usage limit is reached.</td>
+    </tr>
+    <tr>
+      <td><strong>Claude Mem</strong></td>
+      <td>✅ Yes</td>
+      <td>Not verified</td>
+      <td>Not verified</td>
+      <td>Persistent project/session memory that summarizes work and makes information recallable across sessions.</td>
+    </tr>
+    <tr>
+      <td><strong>Headroom</strong></td>
+      <td>✅ Yes</td>
+      <td>Not verified</td>
+      <td>Model-agnostic compression proxy</td>
+      <td>Compresses context before it reaches the model so less token-heavy, unnecessary context is passed through.</td>
+    </tr>
+    <tr>
+      <td><strong>Claude Code Setup</strong></td>
+      <td>✅ Yes</td>
+      <td>Not verified</td>
+      <td>Claude Code plugin ecosystem</td>
+      <td>Scans a codebase and recommends useful hooks, Skills, subagents, and MCP servers, while helping remove unnecessary setup.</td>
+    </tr>
+    <tr>
+      <td><strong>Task Observer</strong></td>
+      <td>⚠️ Not verified</td>
+      <td>Not verified</td>
+      <td>Not verified</td>
+      <td>Claimed to observe working patterns and continuously improve other Skills in the background.</td>
+    </tr>
+  </tbody>
+</table>
+
 📐 Agent Skills Standard & Documentation
 
 Agent Skills Specification — The open specification describing the portable SKILL.md format and supporting conventions.
