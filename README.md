@@ -134,8 +134,8 @@ Community and third-party plugins worth knowing about. Support labels below refl
     <tr>
       <td><a href="https://github.com/diegosouzapw/OmniRoute"><strong>OmniRoute</strong></a></td>
       <td>✅</td>
-      <td>❓</td>
-      <td>❓</td>
+      <td>✅</td>
+      <td>✅</td>
       <td>AI provider routing</td>
     </tr>
     <tr>
