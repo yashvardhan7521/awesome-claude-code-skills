@@ -159,13 +159,6 @@ Community and third-party plugins worth knowing about. Support labels below refl
       <td>❓</td>
       <td>Codebase setup recommendations</td>
     </tr>
-    <tr>
-      <td><strong>Task Observer</strong></td>
-      <td>❓</td>
-      <td>❓</td>
-      <td>❓</td>
-      <td>Workflow observation and skill improvement</td>
-    </tr>
   </tbody>
 </table>
 
